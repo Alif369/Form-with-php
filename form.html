@@ -1,0 +1,18 @@
+<form action= "web.php" method="post">
+    Username:<input type="text" id="uname" name="uname" required> <br>
+    Password:<input type="password" id="pass" name="pass" required> <br>
+    Gender:<input type="radio" name="gender" value="Male" required> Male
+    <input type="radio" name="gender" value="Female" required> Female
+    <input type="radio" name="gender" value="others" required> others <br><br>
+    Skills:<input type="checkbox" name="skills[]"" value="c" required>C
+    <input type="checkbox" name="skills[]"" value="c++" required>C++
+    <input type="checkbox" name="skills[]"" value="c#" required>C# <br><br>
+    Department: <select name="dept">
+    <option value="cse">CSE</option>
+    <option value="eee">EEE</option>
+    <option value="bba">BBA</option>
+    </SELECT><br><br>
+    Address:<textarea rowspan="3" colspan="50" name="address"></textarea>
+    <br><br><br>
+    <input type="submit" name="btnClick" value="Click">
+    </form>
